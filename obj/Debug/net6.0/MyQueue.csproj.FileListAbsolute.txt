@@ -1,0 +1,15 @@
+D:\versity space\coding file\PRs\MyQueue\bin\Debug\net6.0\MyQueue.exe
+D:\versity space\coding file\PRs\MyQueue\bin\Debug\net6.0\MyQueue.deps.json
+D:\versity space\coding file\PRs\MyQueue\bin\Debug\net6.0\MyQueue.runtimeconfig.json
+D:\versity space\coding file\PRs\MyQueue\bin\Debug\net6.0\MyQueue.dll
+D:\versity space\coding file\PRs\MyQueue\bin\Debug\net6.0\MyQueue.pdb
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.AssemblyInfoInputs.cache
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.AssemblyInfo.cs
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.csproj.CoreCompileInputs.cache
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.sourcelink.json
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.dll
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\refint\MyQueue.dll
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.pdb
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\MyQueue.genruntimeconfig.cache
+D:\versity space\coding file\PRs\MyQueue\obj\Debug\net6.0\ref\MyQueue.dll

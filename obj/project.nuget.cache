@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6npZbt6DjWgxnAOE11cchwOzFe0K1mlPDheHI4K5ZhI7cPDwj3KvBSkWkdiudgL0ZUOR/mQApnpdOE/VDXHWw==",
+  "success": true,
+  "projectFilePath": "D:\\versity space\\coding file\\PRs\\MyQueue\\MyQueue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Smoke98\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Smoke98\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Smoke98\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Smoke98\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.30\\microsoft.netcore.app.host.win-x64.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}
