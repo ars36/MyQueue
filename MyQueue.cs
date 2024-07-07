@@ -1,12 +1,12 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;   */
 
 namespace MyQueue
 {
-    internal class MyQueueCls<T>
+    class MyQueueCls<T> //by default the class is in internal
     {
         private int head;
         private int tail;
@@ -34,7 +34,12 @@ namespace MyQueue
             }
             else
             {
-                throw new Exception("Size cannot be equal or smaller than zero");
+                //throw new Exception("Size cannot be equal or smaller than zero");
+                Console.WriteLine("Size has to be grater than 0!\nIntiallizing with default values...");
+                q = new T[deFaultQueSize];  //this should work as well
+                count = 0;
+                head = 0;
+                tail = 0;
             }     
             
         }
@@ -43,14 +48,17 @@ namespace MyQueue
         {
             if(count >= deFaultQueSize) 
             {
-                throw new Exception("Queue is full");
+                //throw new Exception("Queue is full");
+                System.Console.WriteLine("Queue is full");
             }
             else
             {
                 q[head] = num;
-                count++;
+                /*count++;
                 head++;
-                head%= deFaultQueSize;
+                head%= deFaultQueSize;  */
+                head = (head +1) % deFaultQueSize;
+                count++;
             }
         }
 
@@ -58,17 +66,19 @@ namespace MyQueue
         {
             if(count<=0)
             {
-                throw new Exception("Queue is already empty");
+                //throw new Exception("Queue is already empty");
+                return default;
             }
             else
             {
                 T rValue= q[tail];
-                tail++;
-                tail%= deFaultQueSize;
+               // tail++;
+               // tail%= deFaultQueSize;
+               tail = (tail+1)% deFaultQueSize;
                 count--;
                 return rValue;
             }
-        }
+        }public bool IsEmpty(){return count==0;}
 
     }
 }
